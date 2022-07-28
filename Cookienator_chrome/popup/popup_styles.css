@@ -1,0 +1,127 @@
+html, body {
+    width: 330px;
+    font-family: "Roboto Mono", monospace;
+  } 
+  .hidden {
+    display: none;
+  }
+  .field {
+    margin: 3% auto;
+    padding: 4px;
+    font-size: 0.5em;
+    padding-bottom: 0px;
+    
+  }
+  div p {
+      text-align: center;
+  }
+  .popup-content {
+    width: 100%;
+    overflow: visible;
+    text-align: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(349deg, rgba(255,255,255,1) 0%, rgb(48, 48, 48) 0%, rgba(255,255,255,1) 100%);
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+  }
+  .consent-content {
+    width: 100%;
+    overflow: visible;
+    text-align: left;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    background: rgb(255,255,255);
+    background: linear-gradient(349deg, rgba(255,255,255,1) 0%, rgb(112, 112, 112) 0%, rgba(255,255,255,1) 100%);
+  }
+  .escriu{
+      width: 69%;
+      padding-right: 10px;
+      padding-left: 0px;
+      border-radius: 10px;
+      margin-right: 10px !important;
+      height: 37px;
+  }
+  .camp{
+      width: 31%;;
+  }
+  .in{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+  }
+  button {
+      font-family: inherit;
+      font-size: 1.5em;
+      padding: 10px;
+      width: 60%;
+      text-align: center;
+      font-weight: 200;
+      letter-spacing: 1px;
+      padding: 13px 50px 13px;
+      outline: 0;
+      border: 1px solid black;
+      cursor: pointer;
+      position: relative;
+      background-color: rgba(0, 0, 0, 0);
+      border-radius: 5px;
+  }
+  .consulta_button {
+    font-size: 1em;
+    padding: 10px;
+    width: 55%;
+    text-align: center;
+}
+.transaction_button {
+  font-size: 1.7em;
+  padding-left: 10px;
+  margin: 2%;
+  margin-top: 0px;
+  width: 31%;
+  text-align: center;
+}
+.back_button {
+  font-size: 1em;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+}
+.transaction {
+  background-color: #cce929;
+  margin-bottom: 7px;
+
+}
+.transaction:hover {
+  background-color: #d8ec62;
+}
+  .consulta {
+    background-color: #09c8d6;
+    margin-bottom: 7px;
+
+  }
+  .consulta:hover {
+    background-color: #48cad3;
+  }
+  .torna {
+    background-color: #ad2c57;
+    margin-left: 10px;
+
+  }
+  .torna:hover {
+    background-color: #aa4869;
+  }
+  .aplica {
+    background-color: #18b913;
+    margin-bottom: 7px;
+
+  }
+  .aplica:hover {
+    background-color: #32e92b;
+  }
+
+  ul li {
+    margin-bottom: 5px;
+  }
