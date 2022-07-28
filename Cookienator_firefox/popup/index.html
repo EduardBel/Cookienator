@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="popup_styles.css"/>
+  </head>
+<body>
+    <div id="contingut" style="display: block;">
+      <div class="popup-content" id="popup-content">
+        <div class="field in">
+          <h1 class="camp">Privacy</h1>
+          <input id="preferencies" class="escriu" type="range" min="1" max="4" step="1" value="1"></input>
+        </div>
+        <p>The higher, the less data you share</p>
+        <p>Don't forget to save your privacy level</p>
+        <button id="consulta" class="consulta_button consulta">Check consents</button>
+        <button id="boto_aplica" class="button aplica">Save</button>
+      </div>
+    </div>
+    <div id="transaccions" style="display: none; width: 100%;text-align: center;">
+      <div class="consent-content">
+        <p><b>Managed consents</b></p>
+        <button id="tornar" class="back_button torna">Back</button>
+        <ul id="llista_consent">
+        </ul>
+      </div>
+    </div>
+<script src="popup_index.js"></script>
+</body>
+</html>
+
