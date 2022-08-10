@@ -1,51 +1,54 @@
 html, body {
     width: 330px;
     font-family: "Roboto Mono", monospace;
+    margin: 0px;
+    padding: 0%;
   } 
   .hidden {
     display: none;
   }
   .field {
-    margin: 3% auto;
-    padding: 4px;
-    font-size: 0.5em;
+    padding: 0px;
+    font-size: 0.65em;
     padding-bottom: 0px;
     
   }
-  div p {
+  div {
       text-align: center;
   }
+  p {
+    text-align: center;
+    font-size: 1.12em;
+
+}
   .popup-content {
     width: 100%;
     overflow: visible;
     text-align: center;
     background: rgb(255,255,255);
     background: linear-gradient(349deg, rgba(255,255,255,1) 0%, rgb(48, 48, 48) 0%, rgba(255,255,255,1) 100%);
-    border: 3px;
-    border-color: black;
-    border-style: solid;
-    padding: 5px;
+    padding: 0px;
+    margin:0%;
   }
   .consent-content {
     width: 100%;
     overflow: visible;
-    text-align: left;
-    border: 3px;
-    border-color: black;
-    border-style: solid;
     background: rgb(255,255,255);
     background: linear-gradient(349deg, rgba(255,255,255,1) 0%, rgb(112, 112, 112) 0%, rgba(255,255,255,1) 100%);
+    padding: 0px;
+    margin:0%;
   }
   .escriu{
       width: 69%;
-      padding-right: 10px;
+      padding-right: 0px;
       padding-left: 0px;
       border-radius: 10px;
-      margin-right: 10px !important;
+      margin-right: 20px !important;
       height: 37px;
   }
   .camp{
-      width: 31%;;
+      width: 31%;
+      margin-top: 10px;
   }
   .in{
         width: 100%;
@@ -70,7 +73,7 @@ html, body {
       border-radius: 5px;
   }
   .consulta_button {
-    font-size: 1em;
+    font-size: 1.2em;
     padding: 10px;
     width: 55%;
     text-align: center;
@@ -84,9 +87,13 @@ html, body {
   text-align: center;
 }
 .back_button {
-  font-size: 1em;
+  font-size: 1.2em;
   padding: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
   width: 30%;
+  
+  
   text-align: center;
 }
 .transaction {
@@ -107,7 +114,9 @@ html, body {
   }
   .torna {
     background-color: #ad2c57;
-    margin-left: 10px;
+    
+    margin-right: 200px;
+    margin-top: 10px;
 
   }
   .torna:hover {
@@ -120,8 +129,4 @@ html, body {
   }
   .aplica:hover {
     background-color: #32e92b;
-  }
-
-  ul li {
-    margin-bottom: 5px;
   }

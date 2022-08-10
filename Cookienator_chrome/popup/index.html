@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="popup_styles.css"/>
   </head>
 <body>
-    <div id="contingut" style="display: block;">
+    <div id="contingut" style="display: block; border: 3px; border-color: black; border-style: solid;">
       <div class="popup-content" id="popup-content">
         <div class="field in">
           <h1 class="camp">Privacy</h1>
@@ -17,11 +17,11 @@
         <button id="boto_aplica" class="button aplica">Save</button>
       </div>
     </div>
-    <div id="transaccions" style="display: none; width: 100%;text-align: center;">
-      <div class="consent-content">
-        <p><b>Managed consents</b></p>
+    <div id="transaccions" style="display: none; width: auto;text-align: center;border: 3px; border-color: black; border-style: solid;">
+      <div class="consent-content" style="padding-top: 5px;">
+        <b class="sep" style="font-size: 1.3em;text-align: center;padding-left: 50px;padding-right: 50px;">Managed consents</b>
         <button id="tornar" class="back_button torna">Back</button>
-        <ul id="llista_consent">
+        <ul id="llista_consent" style="margin-top: 0px; margin-bottom: 0px;">
         </ul>
       </div>
     </div>

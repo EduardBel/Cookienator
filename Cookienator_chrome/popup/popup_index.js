@@ -22,7 +22,9 @@ function listenForClicks() {
       chrome.storage.local.get(['webPagesTFG'], function(result) { // mostrem llista
           var llista = document.getElementById("llista_consent")
           for(i in result.webPagesTFG){
-            llista.innerHTML=llista.innerHTML + "<li>"+result.webPagesTFG[i]+"</li>"
+            llista.innerHTML=llista.innerHTML + "<li style='padding-bottom: 5px;text-align: left; font-size: 1.2em;'>"+result.webPagesTFG[i]+"</li>"
+
+            //llista.innerHTML=llista.innerHTML + "<li>"+result.webPagesTFG[i]+"</li>"
           }       
       });
     }

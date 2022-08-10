@@ -2,9 +2,9 @@
 
     "manifest_version": 3,
     "name": "Cookienator",
-    "version": "1.0",
+    "version": "1.2",
     
-    "description": "Extension that lets you choose your preferences about web cookies and manages them in order to save you some time.",
+    "description": "Cookienator lets you choose your preferences about web cookies and manages them in order to save you some time.",
     "icons": {
       "48": "icons/border-48.png"
     },
